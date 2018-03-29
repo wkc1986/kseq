@@ -30,6 +30,7 @@
 
 `pd noteset`
 Settings related to note output.
+
 **Very much TBD**
 
 1. note length + number box for display 
