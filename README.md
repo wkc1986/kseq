@@ -32,5 +32,18 @@
 Settings related to note output.
 **Very much TBD**
 
-1. note length
+1. note length + number box for display 
 2. velocity toggle: when on, note length is (base note length) * (value 2 / 127)
+3. root MIDI pitch
+4. scale selection slider + symbol box for display
+5. button to reload `scales.txt` (see below)
+6. toggle to quantize pitch; if off, blue sequencer output is used directly as pitch
+
+## scales.txt howto
+Add one scale per line in format `$name $pitch0 $pitch1 ...`.
+`$pitch0` should probably always be `0`.
+Break lines with `;`, e.g.
+```
+major 0 2 4 5 7 9 11 12 ;
+minor 0 2 3 5 7 8 10 12
+```
