@@ -1,5 +1,7 @@
 # kseq: complex standalone sequencer for Pd
 
+![kseq screenshot](sshot.png "kseq screenshot")
+
 ## Left column
 
 1. position indicator
